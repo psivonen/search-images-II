@@ -1,17 +1,16 @@
-img {
-    object-fit: cover;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Oswald&display=swap');
+
+body {
+    font-family: Inter;
 }
 
 .search-images {
     margin-top: 100px;
     margin-bottom: 100px;
-}
-
-.img-column {
-    height: 400px;
-    display: flex;
-    justify-content: space-evenly;
-    margin-bottom: 20px;
 }
 
 .wrapper {
@@ -28,7 +27,8 @@ img {
 }
 
 h1 {
-    margin-bottom: 30px;
+    margin-bottom: 10px;
+    font-family: Inter, sans-serif;
 }
 
 .search-button {

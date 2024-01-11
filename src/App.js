@@ -1,19 +1,14 @@
-import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
-//import Header from "./components/Header.js";
 import Footer from "./components/Footer.js";
-import Container from "react-bootstrap/Container";
 import SearchImages from './components/SearchImages';
+import Header from './components/Header.js';
 
-const App = () => {
+export default function App() {
   return (
     <>
-      <Container className='search-images'>
-        <SearchImages />
-      </Container>
+      <Header/>
+      <SearchImages />
       <Footer/>
     </>
   );
 };
-
-export default App;
