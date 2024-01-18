@@ -2,35 +2,54 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Oswald&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Oswald&display=swap");
 
 body {
-    font-family: Inter;
+  font-family: Inter;
 }
 
-.search-images {
-    margin-top: 100px;
-    margin-bottom: 100px;
-}
-
-.wrapper {
-    min-width: 100%;
-}
-
-.img-text {
-    font-size: 14px;
-    margin-top: 5px;
-}
-
-.search-form {
-    width: 70%;
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0rem 1rem;
+  min-height: 100vh;
+  width: min(100%, 2000px);
+  margin: auto;
 }
 
 h1 {
-    margin-bottom: 10px;
-    font-family: Inter, sans-serif;
+  margin-bottom: 10px;
+  font-family: Inter, sans-serif;
 }
 
-.search-button {
-    margin-top: 20px;
+.modal-overlay {
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 1000;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
+.close-button {
+  position: absolute;
+  top: 2px;
+  right: 2px;
+  color: #000;
+}
+
+.slide-transition {
+  transition: transform 0.3s ease-in-out;
+  transform: translateY(-100%);
+}
+
+.menu-open {
+  transform: translateY(0);
+}
+
