@@ -1,11 +1,37 @@
-# Demo
-https://psivonen.github.io/search-images-II/
+# Search images
 
-# Getting Started with Create React App
+### Description
+A React application that allows users to effortlessly search for high-quality images. This app provides a seamless and visually pleasing experience, leveraging the power of Tailwind CSS for a stylish and responsive interface and integrating the Unsplash API with a large image library. The project is based on my first React project I made years ago. I wanted to bring the project to the present day and develop my React skills.
+
+### Built with
+
+[![React.js]][React-url]
+[![TailwindCSS]][TailwindCSS-url]
+
+### Key features
+
+- The user can search for high-quality images based on a search term.
+- The application dynamically retrieves results using the Unsplash API and offers a versatile selection of images.
+- A visually pleasing design that utilizes the efficiency and elegance of Tailwind CSS.
+- The application is also optimized for different devices, which ensures a consistent and pleasant user experience.
+- Using the resources of the Unsplash API, high-quality images can be shown to the user.
+
+### Conclusion
+
+This React application showcases my skills in front-end development, design and integration with external APIs. I was able to bring my old project up to date.
+
+<b>Demo:</b> https://psivonen.github.io/search-images-II/
+
+[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
+[React-url]: https://reactjs.org/
+[TailwindCSS]: https://img.shields.io/badge/tailwind-logo?style=for-the-badge&logo=tailwindcss&logoColor=%230ea5e9&color=15223C
+[TailwindCSS-url]: https://tailwindcss.com/
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+### Available Scripts
 
 In the project directory, you can run:
 
