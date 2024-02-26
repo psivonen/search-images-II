@@ -1,5 +1,7 @@
 # Search images
 
+![search-images-1](https://github.com/psivonen/search-images-II/assets/44951778/6dcf30be-869e-48c1-a2a9-4cb9abdac117)
+
 ### Description
 A React application that allows users to effortlessly search for high-quality images. This app provides a seamless and visually pleasing experience, leveraging the power of Tailwind CSS for a stylish and responsive interface and integrating the Unsplash API with a large image library. The project is based on my first React project I made years ago. I wanted to bring the project to the present day and develop my React skills.
 
